@@ -34,7 +34,7 @@ module.exports = async (req, res) => {
         },
       }
     );
-
+    console.log(await orderResponse.json());
     if (!orderResponse.ok) {
       return res.status(500).json({ error: "Failed to fetch order" });
     }
