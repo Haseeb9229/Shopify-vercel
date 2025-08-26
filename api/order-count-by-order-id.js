@@ -21,7 +21,7 @@ module.exports = async (req, res) => {
   }
 
   const shop = "8b4e7e-9b.myshopify.com";
-  const token = process.env.SHOPIFY_API_TOKEN;
+  const token = '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';
 
   try {
     // Step 1: Get the order
